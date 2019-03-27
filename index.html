@@ -1,0 +1,59 @@
+<!-- input types taken from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Registration</title>
+      <link rel="stylesheet" href="css/style.css" type="text/css">
+      <meta name="Registration Form" content="Registration Form">
+   </head>
+   <body>
+      <header>
+      </header>
+      <h1>Registration Form</h1>
+      <form>
+      <!-- Input fields -->
+         <!-- Personal Details -->
+         <section id="personalDetails">
+            <h2>Personal Details</h2>
+            <div class="input">
+               <label for="firstName">First Name:</label> <input id="firstName" type="text" class="input">
+            </div>
+            <div class="input">
+               <label for="lastName">Last Name:</label> <input id="lastName" type="text">
+            </div>
+            <div class="input">
+               <label for="dateOfBirth">Date Of Birth:</label> <input id="dateOfBirth" type="date" name="dateOfBirth">
+            </div>
+         </section>
+         <!-- Contact Details -->
+         <section id="contactDetails">
+            <h2>Contact Details</h2>
+            <div class="input">
+               <label for="homeAddress">Home Address:</label> <input id="homeAddress" type="text">
+            </div>
+            <div class="input">
+               <label for="email">Email:</label> <input id="email" type="email" name="email">
+            </div>
+            <div class="input">
+               <label for="teleNumber">Telephone Number:</label> <input id="teleNumber" type="tel">
+            </div>
+         </section>
+         <!-- Buttons -->
+         <section id="buttons">
+         <div class="button">
+            <button type="reset">Reset All Fields</button>
+         </div>
+         <div class="button">
+            <button type="submit">Submit</button>
+         </div>
+         </section>
+      </form>
+      <footer>
+         <p>
+            Created by Sam Verus
+         </p>
+      </footer>
+   </body>
+</html>

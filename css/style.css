@@ -1,0 +1,37 @@
+body {
+  background-color: #776D70;
+}
+
+h1, h2, p, label {
+  font-family:Arial;
+  padding-left : 5px;
+  background-color: #EFF3EF;
+}
+section {
+  background-color: #EFF3EF;
+  border-style: solid;
+  margin: 10px;
+  padding-bottom: : 5px;
+}
+
+footer {
+  background-color: #EFF3EF;
+  border-style: solid;
+  font-size: .8em;
+}
+label {
+  padding-left : 5px;
+  display:inline-block;
+  width:150px;
+}
+
+.input {
+   border: 1px dotted green;
+   margin: 5px 0;
+   padding-left : 5px;
+}
+
+.button  {
+  display: inline-block;
+  padding: 5px;
+}
